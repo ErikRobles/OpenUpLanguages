@@ -1,0 +1,8 @@
+SiteTitle = Open Sans, sans-serif 50px text-transform uppercase font-weight: 600 color: #212124 lineheight: 1.0
+SubTitle = Open Sans, sans-serif color: #696969 
+Nav_theme ul li a = display: block | text-align: center | font-size: 14px | line-height: 20px | padding: 25px 15px 24px | color #fff
+			z-index: 0 | -moz transition: all .3s ease | -webkit-transition: all .3s ease | transition: all .3s ease
+			color-gradient: start - #ebbd16 end - #e3a412
+Footer menu a.link active = #e2a212
+Phone numbers color = #ffa500
+Testimony Name color = color:#FFA500;
