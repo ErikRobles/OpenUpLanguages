@@ -6247,6 +6247,7 @@ button.close {
   position: relative;
   width: 100%;
   overflow: hidden;
+  margin-top: -20px;
 }
 .carousel-inner > .item {
   position: relative;
@@ -6424,9 +6425,9 @@ button.close {
 }
 .carousel-caption {
   position: absolute;
-  right: 15%;
-  bottom: 20px;
-  left: 15%;
+  right: 0%;
+  bottom: -25px;
+  left: 0%;
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -6456,8 +6457,8 @@ button.close {
     margin-right: -10px;
   }
   .carousel-caption {
-    right: 20%;
-    left: 20%;
+    right: 27%;
+    left: 27%;
     padding-bottom: 30px;
   }
   .carousel-indicators {

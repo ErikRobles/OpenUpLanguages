@@ -1,3 +1,18 @@
+body {
+  max-width: 1086px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  z-index: -2;
+  background: white;
+}
+
+.wrap-me {
+  margin-left: 72px;
+  margin-right: 72px;
+}
+
 .navbar {
   margin-top: 20px;
 }
@@ -113,4 +128,18 @@ text-align: left;
 }
 .navbar-inner {
 margin: 0 auto;
+}
+
+.img-responsive {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.slideText {
+  background: rgba(0,0,0,0.5);
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 3px;
 }

@@ -12,6 +12,7 @@
   <title>Open Up languages | Inicio</title>
 </head>
 <body>
+  <div class="wrapper">
       <div class="container-fluid">
       <div class="row">
         <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
@@ -24,6 +25,7 @@
       </div>
     </div>
   <!-- Nav bar -->
+
   <div class="navbar navbar-inverse text-uppercase">
     <div class="container c-nav">
       <div class="navbar-header center">
@@ -46,6 +48,34 @@
       </div>
     </div>
   </div>
+  </div>
+  <!-- End navbar -->
+
+  <!--Start Carousel -->
+  <div id="imageCarousel" class="carousel slide" data-interval="7000">
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="img/ExtraOrdinarySlide.jpg" class="img-responsive" alt="Libro abierto con la palabra Extraordinary escrito a mano">
+          <div class="carousel-caption">
+            <p class="slideText">"SUCCESS IS ACHIEVED BY ORDINARY PEOPLE WITH EXTRAORDINARY DETERMINATION" - Zig Ziglar</p>
+          </div>
+      </div>
+      <div class="item">
+        <img src="img/ManOverCloudsSlide.jpg" class="img-responsive" alt="Libro abierto con la palabra Extraordinary escrito a mano">
+          <div class="carousel-caption">
+            <p class="slideText">"THE LIMITS OF YOUR LANGUAGE ARE THE LIMITS OF YOUR WORLD" - L.Wittgenstein</p>
+          </div>
+      </div>
+      <div class="item">
+        <img src="img/HandsPlanSlide.jpg" class="img-responsive" alt="Libro abierto con la palabra Extraordinary escrito a mano">
+          <div class="carousel-caption">
+            <p class="slideText">"THE BEST WORK YOU'LL EVER DO IS WORKING ON YOU" - Robin Sharma</p>
+          </div>
+      </div>
+    </div>
+  </div>
+  <!--End Carousel -->
+
   <!--Start Footer-->
   <footer id="footer">
     <div class="footer-inner">
@@ -111,5 +141,10 @@
       </div>
     </div>
   </footer>
+  <script type="text/javascript">
+      $(document).ready(function() {
+        $('#imageCarousel').carousel();
+      })
+  </script>
 </body>
 </html>
