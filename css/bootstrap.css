@@ -4506,7 +4506,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #90d403;
 }
 .navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
+.navbar-default  {
   color: #fff;
   background-color: transparent;
 }
@@ -4519,7 +4519,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #fff;
-  background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -4532,7 +4531,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .disabled > a:hover,
 .navbar-default .navbar-nav > .disabled > a:focus {
   color: #fff;
-  background-color: transparent;
 }
 .navbar-default .navbar-toggle {
   border-color: #fff;
@@ -4648,14 +4646,14 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
   color: #fff;
-  background-color: #080808;
+  background-color: transparent;
 }
 @media (max-width: 767px) {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
-    border-color: #080808;
+    border-color: transparent;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
-    background-color: #2F72A8;
+    background-color: transparent;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
     color: #2F72A8;
@@ -6760,49 +6758,6 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important;
-  }
-}
-
-/* Custom CSS*/
-.logo {
-  margin-top: 15px;
-}
-
-.social-icons {
-  margin-left: 5px;
-  margin-top: 25px;
-  width: 50px
-}
-
-.site-title {
-  font-weight: 600;
-  font-size: 40px;
-  margin-left: 20px;
-}
-
-.sub-title {
-  margin-left: 20px;
-  font-size: 1.2em;
-}
-
-@media (max-width: 863px) {
-  .container-fluid {
-    text-align: center;
-  }
-  .social-icons {
-    width: 50px;
-  }
-  .logo {
-    margin-top: 15px;
-  }
-}
-
-@media (max-width: 1040px) {
-  .social-icons {
-    text-align: center;
-  }
-  .site-title {
-    font-size: 40px;
   }
 }
 
