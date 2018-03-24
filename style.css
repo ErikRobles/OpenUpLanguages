@@ -108,10 +108,9 @@ h3.sub-title {
   background: transparent;
 }
 /* Footer Section */
-
 #footer {
   background: #343a40;
-  color: white;
+  color: #fff;
   padding: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -124,84 +123,45 @@ h3.sub-title {
   align-items: center;
   text-align: center;
 }
-
-@media (min-width: 400px) {
-  #footer {
-    display: block;
-    }
-}
-
-.footer-inner {
-
-}
-
-@media (min-width: 400px) {
-  .footer-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
-    grid-gap: 1rem;
-    justify-items: center;
-    max-width: 1000px;
-    margin: auto;
-  }
-}
-
-@media (min-width: 768px) {
-  .footer-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    grid-gap: 1rem;
-    justify-items: center;
-    max-width: 1000px;
-    margin: auto;
-  }
-}
-
-@media (min-width: 1000px) {
-  .footer-grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: auto;
-    grid-gap: 1rem;
-    justify-items: center;
-    max-width: 1000px;
-    margin: auto;
-  }
-}
-
-.footer-group {
-}
-
-@media (min-width: 1170px) {
-  .footer-group {
-    width: 200px;
-  }
-}
-
-.footer-heading h4 {
-  font-weight: 400;
-  font-size: 1.2rem;
-}
-
-.footer-links ul {
-  list-style: none;
-  padding: 0;
-
-}
-
-.footer-links ul li a {
-  padding: .5rem 0;
+li a {
+  text-decoration: none;
   color: white;
-  -webkit-transition: color 200ms ease;
-  transition: color 200ms ease;
+}
+ul {
+  list-style: none;
 }
 
-.footer-links ul li a:hover {
-  color: rgba(255, 255, 255, 0.7);
+.bottom-menu {
+  line-height: 3.1;
+}
+.copyright {
+  font-size: 14px;
 }
 
+.info,
+.national,
+.international {
+  margin-left: 10px;
+}
+
+.info {
+  vertical-align: middle;
+}
+
+.national {
+  vertical-align: middle;
+}
+
+.international {
+  vertical-align: middle;
+}
+
+.contact {
+  margin-top: 10px;
+}
+
+
+/* End Footer Section*/
 .center.navbar .nav,
 .center.navbar .nav > li {
 float:none;
