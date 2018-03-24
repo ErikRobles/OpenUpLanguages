@@ -14,6 +14,10 @@ body {
   margin: 0 auto;
 }
 
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: rgba(255,255,255,0.7)
+}
+
 .wrapper {
   z-index: -2;
   background: white;
@@ -127,12 +131,19 @@ li a {
   text-decoration: none;
   color: white;
 }
+
+li a:hover {
+  text-decoration: none;
+  color: rgba(255,255,255,0.7)
+}
+
 ul {
   list-style: none;
 }
 
 .bottom-menu {
   line-height: 3.1;
+  margin-bottom: 40px;
 }
 .copyright {
   font-size: 14px;
